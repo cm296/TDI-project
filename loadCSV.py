@@ -37,7 +37,7 @@ def loadCSV(chunksize=1_000_000,limitChunkIter=[]):
     end = time.time()
     del chunk
     print("Read csv with chunks: ",(end-start),"sec")
-    df.to_csv('temp_datalab_records_job_listings_nona.csv')
+    df.to_csv('../temp_datalab_records_job_listings_nona.csv')
     return df
 
 
