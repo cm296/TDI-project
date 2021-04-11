@@ -14,7 +14,13 @@
 
 
 # Setting up directories:
-#### To load the dataset, the notebook uses the python module loadCSV.py , which assumes a directory with path '../datasets' where all the .csv files for the job openings are located. filenames are saved, with filename temp_datalab_records_job_listings_1.csv,*_2.csv,*_3.csv, and so on until 7
+#### To load the dataset, the notebook uses the python module loadCSV.py , which assumes a directory with path:
+#### '../datasets' where all the .csv files for the job postings dataset are located. 
+#### Important: for the code to work, the 7 separate csv files with the whole dataset need to be named: 
+#### - temp_datalab_records_job_listings_1.csv, 
+#### - *_2.csv, 
+#### - *_3.csv, 
+#### - and so on until 7
 
 
 # Environment: 
