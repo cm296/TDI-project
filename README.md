@@ -3,7 +3,7 @@
 
 #### - The notebook loads job posting data for all NYSE and Nasdaq stock , cleans them, remove missing data, and saves them in a new csv file. 
 
-#### - It then identifies the major companies that posted job openings in the field of "Data Science" and, filters data to only show companies that posted a high number of jobs (>=500 for at least one month during the time period). The company for which data seemed more complete, Apple, was selected for further analysis.
+#### - It then identifies the major companies that posted job openings in the field of "Data Science" and filters data to only show companies that posted a high number of jobs (>=500 for at least one month during the time period). The company for which data seemed more complete, Apple, was selected for further analysis.
 
 #### - It then loads a dataset of the stock prices and merges it with the job posting based on time points
 
